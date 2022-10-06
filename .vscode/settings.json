@@ -1,0 +1,16 @@
+{
+    "[dart]": {
+        "editor.rulers": [80],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        // By default, VS Code will pre-select the most recently used item from code
+        // completion. This is usually not the most relevant item.
+        //
+        // "first" will always select top item
+        // "recentlyUsedByPrefix" will filter the recently used items based on the
+        //     text immediately preceding where completion was invoked.
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    }
+}
