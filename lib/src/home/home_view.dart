@@ -1,5 +1,5 @@
 import 'package:brewery/src/home/breweries_view.dart';
-import 'package:brewery/src/models/brewery.dart';
+import 'package:brewery/src/home/favorites_view.dart';
 import 'package:flutter/material.dart';
 
 class HomeView extends StatefulWidget {
@@ -22,14 +22,14 @@ class _HomeViewState extends State<HomeView> {
           bottom: const TabBar(
             tabs: [
               Tab(text: 'Home'),
-              // Tab(text: 'Favorites'),
+              Tab(text: 'Favorites'),
             ],
           ),
         ),
         body: const TabBarView(
           children: [
             BreweriesView(),
-            // FavoriteBreweriesView(),
+            FavoriteBreweriesView(),
           ],
         ),
       ),
